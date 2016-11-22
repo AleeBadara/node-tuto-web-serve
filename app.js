@@ -2,6 +2,7 @@
 const express = require('express');
 const fs = require('fs');
 
+const port = process.env.PORT || 3000;
 var app = express();
 
 //Middlewar
@@ -21,6 +22,6 @@ app.get('/home', function (req, res) {
 
 });
 
-app.listen(3000, function () {
-    console.log('Server listening');
+app.listen(port, function () {
+    console.log('Server listening on', port);
 });
