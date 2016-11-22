@@ -1,0 +1,14 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "tuto on webser server with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alioune",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
